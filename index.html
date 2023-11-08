@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Movie DB</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>The Movie DB</h1>
+        </nav>
+    </header>
+    <select id="sortSelect">
+        <option value="rating.asc"></option>
+        <option value="rating.desc"></option>
+    </select>
+    <form class="form" id="form">
+        <input type="text" id="searchInput" placeholder="Search" required>
+        <button type="submit">Search</button>
+    </form>
+    <div class="container" id="moviesContainer"></div>
+    <div class="pagination" id="pagination"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
